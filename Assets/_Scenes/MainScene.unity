@@ -813,8 +813,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -132.5}
-  m_SizeDelta: {x: 200, y: 605}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 0, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155206826
 MonoBehaviour:
@@ -850,9 +850,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\n- Basic Atk => Left Click\n- Skill Meteor => 1\n- Move => WASD\n- Jump
-    => Space\n- Camera => Mouse\n- Toggle Cursor => Left-Alt\n\n      ----- Skill
-    Guide -----\n\n- Skill Meteor: Press 1 to enter Aim Mode. In Aim Mode press \"Right
-    Click\" to cancel the skill, press \"Left Click\" to confirm the position."
+    => Space\n- Camera => Mouse\n- Toggle Cursor => Left-Alt\n- Change to Explore
+    Cam => 0\n- Change to Combat Cam => -\n\n      ----- Skill Guide -----\n\n- Skill
+    Meteor: Press 1 to enter Aim Mode. In Aim Mode press \"Right Click\" to cancel
+    the skill, press \"Left Click\" to confirm the position."
 --- !u!222 &155206827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1554,10 +1555,10 @@ RectTransform:
   m_Father: {fileID: 2069422678}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &430723014
 GameObject:
@@ -4307,7 +4308,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 400}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1301309862
 MonoBehaviour:
@@ -4992,7 +4993,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617062676}
-  m_LocalRotation: {x: 0.11559233, y: 0.000000034182086, z: -0.0000000039778514, w: 0.9932968}
+  m_LocalRotation: {x: 0.11559233, y: -0.00000003418209, z: 0.000000003977852, w: 0.9932968}
   m_LocalPosition: {x: 0, y: 3.33, z: -15.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5199,8 +5200,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 200, y: 30}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 30}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1666800543
 MonoBehaviour:
@@ -5987,7 +5988,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902361715}
-  m_LocalRotation: {x: 0.11559232, y: 0.00000001709104, z: -0.000000001988925, w: 0.99329674}
+  m_LocalRotation: {x: 0.11559232, y: -0.000000017091047, z: 0.000000001988926, w: 0.99329674}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6606,7 +6607,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 500}
+  m_SizeDelta: {x: 375, y: 600}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &2116174128
 GameObject:
